@@ -1,44 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <script type="text/javascript" src="./index.js" defer=""></script>
-    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="formulario">
-      <div class="conteudo">
-        <div class="header">
-          <h2>Formulário</h2>
+    <header>
+      <nav class="navegationes">
+        <a class="logo" href="/">Portfólio</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-        <div class="row">
-            
- <form action="https://api.staticforms.xyz/submit" method="post">
+        <ul class="nav-list">
+          <li><a id="time" href="#">Início</a></li>
+          <li><a id="time" href="#Sobre">Sobre</a></li>
+          <li><a id="time" href="#Projetos">Projetos</a></li>
+          <li><a id="time" href="#Contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="conteudo1">
+        <h1 class="bemvindo letra">Um <strong> Belo </strong> olá, e bem vindo ao meu Portifólio</h1>
+        <h3 class="ironia letra">Sem aba inicial</h3>
+        <p class="ironia letra">Somente use a Navegação, até ❤ </p>
         
-        <input type="hidden" name="accessKey" required value="11228120-8ce4-4079-bac4-22c598e56781">
-        <input type="hidden" name="redirectTo" required value="portifolioresponsivo-n1.netlify.app/">
+        
 
-          <h3>Nome</h3>
-          <input class="input1" name="name" id="name" type="text" required placeholder="Digite seu nome..">
-        </div>
-        <div class="row">
-          <h3>Email</h3>
-          <input class="input2" name="email" id="email" type="email" required placeholder="Seu e-mail por favor..">
-        </div>
-        <div class="row">
-          <h3>Mensagem</h3>
-          <textarea class="input3" name="message" id="message" required placeholder="Se possível, poderia adiantar a  sua ecessidade.." cols="30" rows="10"></textarea>
-          <input type="submit" value="Submit" class="botao">
-        </div>
-      </div>
+    </main>
+    <div id="Sobre" class="conteudo1">
+      <h1 class="titulo">Sobre Mim</h1>
+        <p>Meu nome é Gustavo tenho 15 anos e estudo no Colégio Estadual Presidente Castelo Branco-PREMEN. <br> 
+          Estou estudando programação <b>RONT-END</b>, gosto de trabalhar com o planejamento e requisitos de um site <br>
+          e também com a parte estética que o site toma, estou aprendendo, <b>HTML5 CSS3 e JavaScript Vanilla</b>, <br>
+          tenho interesse em um dia estudar <b>Hacking</b>, e o <b>BACK-END</b> em sí. <br>
+          Procuro me tornar um programador <b>FullStack</b> no futuro.
+          </p>
     </div>
-
-
+    <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     <div class="conteudo1">
+      <h1 class="titulo" id="Projetos">Projetos</h1>
+      <p class="texto-projeto">Bom se olhar no meu Github verá que eu tenho apenas 2 projetos de Portfólio, mas por ai vem um projeto novo <br>
+      que estou desenvolvendo com colegas de classe. <br>
+      Sempre que eu aprender algo novo que de certo estarei colocando no Github para que eu possa acompanhar, <br> <b>Meu Desenvolvimento na Programação</b> </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div class="conteudo1">
+      <h1 class="titulo" id="Contato">Contato</h1>
+      <h3 class="texto-projeto">Para entrar em contato comigo você pode usar: <br>
+      E-mail:gustavopavan993@gmail.com <br>
+      Github:@basicpavan</h3>
+    </div>
+    <script src="mobile-navbar.js"></script>
+    
   </body>
-
 </html>
